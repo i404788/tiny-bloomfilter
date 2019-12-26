@@ -1,0 +1,19 @@
+{
+  "name": "tiny-bloomfilter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rd *.js *.d.ts",
+    "build": "yarn && yarn exec tsc"
+  },
+  "repository": "https://github.com/i404788/tiny-bloomfilter",
+  "author": "C2D <casper@devdroplets.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "xxh3-ts": "^1.0.2",
+    "bigint-popcnt": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21"
+  }
+}
